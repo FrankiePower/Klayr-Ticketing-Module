@@ -1,10 +1,16 @@
 {
 	"name": "Klayr-Ticketing-Module",
 	"version": "0.1.0",
-	"description": "The ticketing module will have these key features like Event Creation and Management, Ticket Minting, Ticket Transfer/Resale, Ticket Validation and Event Statistics",
+	"description": "a ticketing module",
 	"author": "ejezie-franklin-ifechukwu",
 	"license": "ISC",
-	"keywords": ["blockchain", "klayr", "nodejs", "javascript", "typescript"],
+	"keywords": [
+		"blockchain",
+		"klayr",
+		"nodejs",
+		"javascript",
+		"typescript"
+	],
 	"homepage": "",
 	"repository": {},
 	"engines": {
@@ -35,9 +41,17 @@
 	"oclif": {
 		"bin": "Klayr-Ticketing-Module",
 		"commands": "./dist/commands",
-		"plugins": ["@oclif/plugin-help", "@oclif/plugin-autocomplete", "@oclif/plugin-version"],
-		"additionalHelpFlags": ["-h"],
-		"additionalVersionFlags": ["-v"],
+		"plugins": [
+			"@oclif/plugin-help",
+			"@oclif/plugin-autocomplete",
+			"@oclif/plugin-version"
+		],
+		"additionalHelpFlags": [
+			"-h"
+		],
+		"additionalVersionFlags": [
+			"-v"
+		],
 		"topicSeparator": " ",
 		"topics": {
 			"block": {
@@ -78,7 +92,14 @@
 			}
 		}
 	},
-	"files": ["/bin", "/npm-shrinkwrap.json", "/oclif.manifest.json", "/dist", "/config", "/docs"],
+	"files": [
+		"/bin",
+		"/npm-shrinkwrap.json",
+		"/oclif.manifest.json",
+		"/dist",
+		"/config",
+		"/docs"
+	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
